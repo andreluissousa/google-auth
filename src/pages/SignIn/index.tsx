@@ -4,6 +4,7 @@ import './styles.scss'
 export function SignIn(){
     return (
         <div className="container">
+            
             <h1>
                 MAKE YOUR <br />
                 <span id="why">WHY</span> BIGGER <br />
@@ -11,6 +12,7 @@ export function SignIn(){
                 EXCUSES 
             </h1>
 
+            <span className="intro">Work on yourself is a daily process, so do that with day by day app</span>
 
             <button type="button" className="button">
                 <GoogleLogo />
