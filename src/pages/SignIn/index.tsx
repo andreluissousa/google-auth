@@ -4,16 +4,21 @@ import './styles.scss'
 export function SignIn(){
     return (
         <div className="container">
-            <h1>Access your account</h1>
+            <h1>
+                MAKE YOUR <br />
+                <span id="why">WHY</span>BIGGER <br />
+                THAN YOUR <br />
+                EXCUSES 
+            </h1>
 
-            <span>                
-                Use Google authentication, and you'll make your life easier by being able to use the application without having to register.
-            </span>
 
             <button type="button" className="button">
                 <GoogleLogo />
                 Sign In with Google
             </button>
+            <span>                
+                Use Google authentication, and you'll make your life easier by being able to use the application without having to register.
+            </span>
         </div>
     )
 }

@@ -8,6 +8,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 22px;
+
+    #why{
+        color: var(--primary);
+        font-size: 42px;
+    }
 
     span {
         color: var(--caption);
@@ -15,6 +21,8 @@
         justify-content: center;
         text-align: center;
         margin-right: 15px;
+        margin-top: 10px;
+        font-size: 10px;
     }
 }
 
