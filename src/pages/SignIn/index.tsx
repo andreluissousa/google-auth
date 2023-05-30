@@ -4,16 +4,15 @@ import './styles.scss'
 export function SignIn(){
     return (
         <div className="container">
-            <h1>Acesse sua conta</h1>
+            <h1>Access your account</h1>
 
-            <span>
-                Utilize a autenticação com o Google, você
-                facilita a sua vida podendo utilizar a aplicação sem realizar cadastro.
+            <span>                
+                Use Google authentication, and you'll make your life easier by being able to use the application without having to register.
             </span>
 
             <button type="button" className="button">
                 <GoogleLogo />
-                Entrar com Google
+                Sign In with Google
             </button>
         </div>
     )
