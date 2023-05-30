@@ -11,12 +11,15 @@
 
     span {
         color: var(--caption);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 }
 
 .button {
     height: 56px;
-    width: 650px;
+    width: 350px;
 
     color: var(--text);
     background: none;
