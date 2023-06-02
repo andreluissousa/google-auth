@@ -62,3 +62,18 @@
         background-color: var(--background-light);
     }
 }
+
+.user {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 64px;
+
+    img {
+        width: 140px;
+        height: 140px;
+        border-radius: 70px;
+        margin-bottom: 16px;
+    }
+}
