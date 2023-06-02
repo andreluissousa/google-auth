@@ -54,7 +54,7 @@ export function InicialPage(){
         <div className='inicialPage'>
             <div className='user'>
                 {usuarioLogado.photoURL && <img src={usuarioLogado.photoURL} alt="Foto do usuário" />}
-                <h1> Welcome <strong>{usuarioLogado && usuarioLogado.displayName}</strong> to day by day app</h1>
+                <span> Welcome <strong>{usuarioLogado && usuarioLogado.displayName}</strong> to day by day app</span>
             </div>
         </div>
     )
